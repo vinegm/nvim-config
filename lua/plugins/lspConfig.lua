@@ -20,6 +20,7 @@ return { -- LSP Configuration & Plugins
 
         -- LSP hints actions
         map("<leader>ca", vim.lsp.buf.code_action, "[C]ode [A]ction")
+        map("<leader>rn", vim.lsp.buf.rename, "[R]e[n]ame")
 
         -- Highlight references
         local client = vim.lsp.get_client_by_id(event.data.client_id)
