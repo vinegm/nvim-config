@@ -15,6 +15,7 @@ return { -- Autoformat
     notify_on_error = true,
     format_on_save = false,
     formatters_by_ft = {
+      php = { "pint" },
       bash = { "shfmt" },
       javascript = { "prettierd", "prettier" },
       javascriptreact = { "prettierd", "prettier" },
